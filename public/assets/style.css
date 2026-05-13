@@ -1,0 +1,35 @@
+:root {
+    --brand-color: #20b8d8;
+    --brand-hover: #159ab8;
+}
+
+.navbar-brand {
+    color: var(--brand-color) !important;
+}
+
+.active-link {
+    color: var(--brand-color) !important;
+    font-weight: 600;
+    border-bottom: 2px solid var(--brand-color);
+}
+
+.btn-primary {
+    background-color: var(--brand-color) !important;
+    border-color: var(--brand-color) !important;
+}
+
+.btn-primary:hover {
+    background-color: var(--brand-hover) !important;
+    border-color: var(--brand-hover) !important;
+}
+
+.btn-outline-primary {
+    color: var(--brand-color) !important;
+    border-color: var(--brand-color) !important;
+}
+
+.btn-outline-primary:hover {
+    color: #fff !important;
+    background-color: var(--brand-color) !important;
+    border-color: var(--brand-color) !important;
+}
